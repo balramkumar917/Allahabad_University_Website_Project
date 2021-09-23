@@ -1,0 +1,272 @@
+html{
+    font-family: sans-serif;
+    font-weight: 50;
+    
+}
+.homepage,.courses,.library,.laboratoy,.contact,.navlink
+{
+    display:inline-block;
+    margin: 3px;
+    padding: 3px;
+    color:white;
+    letter-spacing: 1px;
+    
+    
+}
+.homepage:hover,.courses:hover,.library:hover,.laboratory:hover,.contact:hover,.navlink:hover
+{
+    background-color: white;
+    color: black;
+    transition-property: all;
+    transition-duration: 0.5s;
+    
+}    
+.nav{
+    background-color: rgb(70, 69, 69);
+    padding: 15px;
+    background-image:url(img/logo.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto;
+    
+}
+.univ
+{
+    text-align: center;
+    color: white;
+    background-image: url(img/cce.jpg);
+    padding-top:50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.about1
+{
+    text-align: center;
+    color: gray;
+    padding: 5px;
+    border: 1px solid gray;
+}
+.about2
+{
+    text-align: center;
+    background:gray;
+    color:white;
+    padding: 5px;
+}
+.aboutcce
+{
+    background: gray;
+    color:white;
+    text-align: center;
+    
+}
+table{
+    text-align: right;
+}
+
+
+.lib
+{
+    color: gray;
+    text-align: center;
+    border: 1px solid gray;
+}
+.ccebg
+{
+    background-color: gray;
+    margin: 30px;
+}
+.libcce
+{
+    letter-spacing: 1px;
+    font-weight: 20px;
+    color: white;
+    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(img/libcce.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    letter-spacing: 2px;
+    font-weight: 30px;
+    background-size: contain;
+}
+.cftbg
+{
+    background-color:white;
+    margin:30px;
+}
+.libcft
+{
+    letter-spacing: 1px;
+    font-weight: 20px;
+    color: gray;
+    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(img/libcft.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    letter-spacing: 2px;
+    font-weight: 30px;
+    background-size: contain;
+    border: 1px solid gray;
+    padding-left: 50%;
+}
+.cmsbg
+{
+    background-color: gray;
+    margin: 30px;
+}
+.libcms
+{
+    letter-spacing: 1px;
+    font-weight: 20px;
+    color: white;
+    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(img/libcms.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    letter-spacing: 2px;
+    font-weight: 30px;
+    background-size: contain;
+}
+.fdtbg
+{
+    background-color: white;
+    margin: 30px;
+}
+.libfdt
+{
+    letter-spacing: 1px;
+    font-weight: 20px;
+    color: gray;
+    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(img/libcfdt.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    letter-spacing: 2px;
+    font-weight: 30px;
+    background-size: contain;
+    border: 1px solid gray;
+    padding-left:50% ;
+}
+.container
+{
+    
+    background-color: gray;
+    display: flex;
+    padding: 40px;
+    margin: 20px;
+    color: white;
+}
+.pg{
+    text-align: right;
+    padding-left: 50px;
+}
+.programmeslist2,.pg2
+{
+    padding-left: 50px;
+
+}
+.programmeslist1,.pg1
+{
+    padding-left: 40%;
+    
+}
+
+.gallery_heading
+{
+    color: gray;
+    text-align: center;
+    padding: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 5px solid gray;
+    border-radius: 15px;
+}
+.gallery,.gallery2,.gallery3{
+    height: auto;
+    width: 65%;
+    display: flex;
+    border: 2px solid white;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.gallery4{
+    margin-left: 15%;
+}
+.gallery_border{
+    border: 2px solid gray;
+    margin-top: 10px;
+}
+
+.contact_border{
+    border: 2px solid gray;
+    color:gray;
+}
+
+.contact_details_heading{
+    text-align: center;
+    border: 2px solid gray;
+}
+
+.contact_heading,.contact_details{
+    padding:5px;
+    margin-left: 60px;
+}
+
+.contact_heading{
+    display: inline-block;
+    background-color: gray;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+.lab_heading{
+    color:gray;
+    text-align: center;
+    border: 1px solid gray;
+    background-color: white;
+    padding: 10px;
+
+}
+.about_lab{
+    color: white;
+    background-color: gray;
+    background:url(img/labcce.jpg);
+    background-position: 90% ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    letter-spacing: 1px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-left: 30px;
+    
+}
+.lab_border{
+    background-color: gray;
+}
+.balram{
+    text-align: bottom;
+    display: inline-block;
+    border:2px solid white;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-style: italic;   
+  
+
+}
